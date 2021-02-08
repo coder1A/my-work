@@ -1,0 +1,12 @@
+@media(prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #151437;
+    --primary-text-color: #ffffff;
+  }
+  .logo::before{
+    content: url(../images/logo_dark.png);
+  }
+  .about__motto{
+    background: var(--secondary-background);
+  }
+}
